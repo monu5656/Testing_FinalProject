@@ -6,20 +6,10 @@ import org.testng.annotations.Test;
 
 public class TestFinal {
 	
-	@BeforeTest
+	@Test
 	public void f1(){
 		System.out.println("hello 123");
 		
 	}
-	
-	
-	@Test
-	public void f2(){
-		
-	}
-	
-	@AfterTest
-	public void f3(){
-		
-	}
+
 }
